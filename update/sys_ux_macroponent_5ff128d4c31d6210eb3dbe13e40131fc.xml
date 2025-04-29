@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_1",
+        "elementLabel": "Column layout 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__cmjjbsovksaabbwpddjiigglwddaaojffe__column_1",
+                    "elementLabel": "Column 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "9c2e48402c6c25d281faeb20637f6106",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "breadcrumbs_1",
+                                "elementLabel": "Breadcrumbs 1",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "delimiter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "chevron"
+                                    },
+                                    "items": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "[{\"label\":\"First Item\",\"href\":\"#\",\"icon\":\"home-outline\",\"hideLabel\":true},{\"label\":\"Breadcrumbs1\",\"href\":\"#\"},{\"label\":\"Breadcrumbs2\",\"href\":\"#\"},{\"label\":\"Breadcrumbs3\"}]"
+                                    },
+                                    "overflow": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "collapse"
+                                    },
+                                    "overflowMenuPosition": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "start"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "container_1",
+                                "elementLabel": "Container 1",
+                                "eventMappings": [],
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "heading_1",
+                                            "elementLabel": "Heading 1",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "data_manager_policy_form_1",
+                                                "disabledEventTargetIds": [],
+                                                "id": "1145e5494380711017b739603ab8f2fe"
+                                            },
+                                            "propertyValues": {},
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "heading_1",
+                                                    "styles": {
+                                                        "background": "rgb(var(--now-color--neutral-1))"
+                                                    }
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "column",
+                                                "margin-left": "var(--now-scalable-space--md)",
+                                                "margin-right": "var(--now-scalable-space--3xl)",
+                                                "padding-left": "var(--now-scalable-space--3xl)"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": {
+                                    "controllerElementId": "data_manager_overview_1",
+                                    "disabledEventTargetIds": [],
+                                    "id": "7dc27a60a3503110d49f9bd2361e617d"
+                                },
+                                "propertyValues": {},
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "b2429385cb0363208b764c151e2d1171",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "carousel_1",
+                                "elementLabel": "Carousel 1",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "heading_2",
+                                            "elementLabel": "Heading 2",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "data_manager_policy_form_1",
+                                                "disabledEventTargetIds": [],
+                                                "id": "1145e5494380711017b739603ab8f2fe"
+                                            },
+                                            "propertyValues": {},
+                                            "slot": "content",
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "button_2",
+                                            "elementLabel": "Button 2",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "data_manager_policy_form_1",
+                                                "disabledEventTargetIds": [],
+                                                "id": "c8042b0343d0711017b739603ab8f247"
+                                            },
+                                            "propertyValues": {
+                                                "landmark": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "2212a6f3be369cc1d00636f94f2c287a",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "card_base_header_1",
+                                            "elementLabel": "Card Base Header 1",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "data_manager_policy_form_1",
+                                                "disabledEventTargetIds": [],
+                                                "id": "14fcf6ba4330711017b739603ab8f25b"
+                                            },
+                                            "propertyValues": {},
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "button_1",
+                                            "elementLabel": "Button 1",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "data_manager_policy_form_1",
+                                                "disabledEventTargetIds": [],
+                                                "id": "c8042b0343d0711017b739603ab8f247"
+                                            },
+                                            "propertyValues": {
+                                                "landmark": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ]
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "carouselTitle": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Title"
+                                        }
+                                    },
+                                    "disableLooping": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "emptyStateContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Please add components into the carousel"
+                                        }
+                                    },
+                                    "emptyStateIllustration": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "completed-tasks"
+                                    },
+                                    "emptyStateLabel": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "No content to display"
+                                        }
+                                    },
+                                    "gradientStyle": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "primary"
+                                    },
+                                    "hideDotIndicator": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLink": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitle": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "itemsInView": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "multiple-content-items"
+                                    },
+                                    "linkIcon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "arrow-right-fill"
+                                    },
+                                    "linkText": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "View all"
+                                        }
+                                    },
+                                    "navPosition": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "center"
+                                    },
+                                    "navStyle": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fill"
+                                    },
+                                    "singleItemOnZoom": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slidingType": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "next-set-of-items"
+                                    },
+                                    "startingIndex": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 0
+                                    },
+                                    "titleLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "2"
+                                    },
+                                    "titlePosition": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "left"
+                                    },
+                                    "titleVariant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "header-tertiary"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "breadcrumbs_1",
+                                        "styles": {
+                                            "padding-bottom": "var(--now-scalable-space--xxl)",
+                                            "padding-left": "var(--now-scalable-space--3xl)",
+                                            "padding-right": "var(--now-scalable-space--3xl)",
+                                            "padding-top": "var(--now-scalable-space--xxl)"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "container_1",
+                                        "styles": {
+                                            "width": "100%"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "carousel_1",
+                                        "styles": {
+                                            "margin-left": "0",
+                                            "margin-right": "0",
+                                            "padding-left": "var(--now-scalable-space--3xl)",
+                                            "padding-right": "var(--now-scalable-space--3xl)"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": {
+                                    "flex-direction": "row"
+                                },
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "align-items": "stretch",
+                                            "box-sizing": "border-box",
+                                            "flex-direction": "column",
+                                            "height": "100%",
+                                            "justify-content": "flex-start",
+                                            "overflow": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__cmjjbsovksaabbwpddjiigglwddaaojffe__column_1",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "grid-template-columns": "100fr",
+                        "grid-template-rows": "1fr",
+                        "width": "auto"
+                    },
+                    "type": "grid"
+                },
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "box-sizing": "border-box",
+                                "grid-template-columns": "1fr",
+                                "grid-template-rows": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content",
+                                "width": "auto"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "contents"
+            }
+        },
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "box-sizing": "border-box",
+                                    "grid-template-columns": "1fr",
+                                    "grid-template-rows": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content",
+                                    "width": "auto"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 100
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {
+                                "display": "contents",
+                                "width": "100%"
+                            },
+                            "internal": {
+                                "box-sizing": "border-box",
+                                "grid-template-rows": "1fr",
+                                "width": "auto"
+                            }
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_2",
+        "elementLabel": "Column layout 2",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__cmjjbtaatyvaabbxccddjiiggkihgdddldd__column_1",
+                    "elementLabel": "Column 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "f87c8f9a2b17510491d16e97103e1362",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "search_facets_1",
+                                "elementLabel": "Search facets 1",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "enableLabelTranslation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "facets": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "[]"
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Filters"
+                                        }
+                                    },
+                                    "searchContextConfigId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "searchTerm": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "selectedOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "[]"
+                                    },
+                                    "selectedSortFilters": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "[]"
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "lg"
+                                    },
+                                    "sortFilters": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "[]"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "67cf54ff68b39f4e45b946184b91bacb",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "link_set_group_1",
+                                "elementLabel": "Link set group 1",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "disableBrowseAll": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "heading": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "IT Support"
+                                        }
+                                    },
+                                    "items": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            {
+                                                "browseLink": {
+                                                    "icon": "chevron-right-outline",
+                                                    "label": "",
+                                                    "link": {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "label": "Browse all",
+                                                        "opensWindow": false,
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "it_support"
+                                                        }
+                                                    },
+                                                    "type": "link"
+                                                },
+                                                "heading": {
+                                                    "hasIcon": true,
+                                                    "icon": {
+                                                        "alignment": "left",
+                                                        "name": "bundle-outline",
+                                                        "placement": "inline"
+                                                    },
+                                                    "label": "",
+                                                    "link": {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "label": "IT Support",
+                                                        "opensWindow": false,
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "it_support"
+                                                        }
+                                                    },
+                                                    "type": "link"
+                                                },
+                                                "links": [
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Software - external URL",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "external",
+                                                        "value": {
+                                                            "href": "https://www.servicenow.com"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Hardware - route type",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "it_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Wifi and remote access",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "it_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Security",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "it_support"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "browseLink": {
+                                                    "icon": "chevron-right-outline",
+                                                    "label": "",
+                                                    "link": {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "label": "Browse all",
+                                                        "opensWindow": false,
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "it_support"
+                                                        }
+                                                    },
+                                                    "type": "link"
+                                                },
+                                                "heading": {
+                                                    "hasIcon": true,
+                                                    "icon": {
+                                                        "alignment": "left",
+                                                        "name": "bundle-outline",
+                                                        "placement": "inline"
+                                                    },
+                                                    "label": "",
+                                                    "link": {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "label": "Human resources",
+                                                        "opensWindow": false,
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "hr_support"
+                                                        }
+                                                    },
+                                                    "type": "link"
+                                                },
+                                                "links": [
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Benefits",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "hr_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Payroll",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "hr_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Time off",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "hr_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Training/careers",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "hr_support"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "browseLink": {
+                                                    "icon": "chevron-right-outline",
+                                                    "label": "",
+                                                    "link": {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "label": "Browse all",
+                                                        "opensWindow": false,
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "it_support"
+                                                        }
+                                                    },
+                                                    "type": "link"
+                                                },
+                                                "heading": {
+                                                    "hasIcon": true,
+                                                    "icon": {
+                                                        "alignment": "left",
+                                                        "name": "bundle-outline",
+                                                        "placement": "inline"
+                                                    },
+                                                    "label": "",
+                                                    "link": {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "label": "Travel &amp; expenses",
+                                                        "opensWindow": false,
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    },
+                                                    "type": "link"
+                                                },
+                                                "links": [
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Travel safety",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Preferred business",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Expenses and gifts",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Finance",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "browseLink": {
+                                                    "icon": "chevron-right-outline",
+                                                    "label": "",
+                                                    "link": {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "label": "Browse all",
+                                                        "opensWindow": false,
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "it_support"
+                                                        }
+                                                    },
+                                                    "type": "link"
+                                                },
+                                                "heading": {
+                                                    "hasIcon": true,
+                                                    "icon": {
+                                                        "alignment": "left",
+                                                        "name": "bundle-outline",
+                                                        "placement": "inline"
+                                                    },
+                                                    "label": "",
+                                                    "link": {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "label": "Events",
+                                                        "opensWindow": false,
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "events"
+                                                        }
+                                                    },
+                                                    "type": "link"
+                                                },
+                                                "links": [
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Travel safety",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Preferred business",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Expenses and gifts",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    },
+                                                    {
+                                                        "configAria": {},
+                                                        "download": false,
+                                                        "endsWith": {
+                                                            "additionalAttrs": null,
+                                                            "type": "icon",
+                                                            "value": "clipboard-outline"
+                                                        },
+                                                        "label": "Finance",
+                                                        "opensWindow": false,
+                                                        "startsWith": {
+                                                            "align": "center",
+                                                            "icon": "headset-outline"
+                                                        },
+                                                        "type": "route",
+                                                        "value": {
+                                                            "fields": {},
+                                                            "route": "te_support"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "width": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "auto"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "search_facets_1",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "link_set_group_1",
+                                        "styles": {}
+                                    }
+                                ],
+                                "root": null,
+                                "rules": {
+                                    "flex-direction": "row"
+                                },
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "align-items": "stretch",
+                                            "box-sizing": "border-box",
+                                            "flex-direction": "column",
+                                            "height": "100%",
+                                            "justify-content": "flex-start",
+                                            "overflow": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__cmjjbtaatyvaabbxddddjiiggcgffeivfff__column_2",
+                    "elementLabel": "Column 2",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "b83fb1af6e8e84e024d4057df053038b",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "link_set_2",
+                                "elementLabel": "Link set 2",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "browseLink": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "icon": "chevron-right-outline",
+                                            "label": "",
+                                            "link": {
+                                                "configAria": {},
+                                                "download": false,
+                                                "label": "Browse all",
+                                                "opensWindow": false,
+                                                "type": "route",
+                                                "value": {
+                                                    "fields": {},
+                                                    "route": "it_support"
+                                                }
+                                            },
+                                            "type": "link"
+                                        }
+                                    },
+                                    "heading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "hasIcon": true,
+                                            "icon": {
+                                                "alignment": "left",
+                                                "name": "bundle-outline",
+                                                "placement": "inline"
+                                            },
+                                            "label": "",
+                                            "link": {
+                                                "configAria": {},
+                                                "download": false,
+                                                "label": "IT Support",
+                                                "opensWindow": false,
+                                                "type": "external",
+                                                "value": {
+                                                    "href": "https://www.servicenow.com"
+                                                }
+                                            },
+                                            "type": "link"
+                                        }
+                                    },
+                                    "indentLinks": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "links": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            {
+                                                "configAria": {},
+                                                "download": false,
+                                                "endsWith": {
+                                                    "additionalAttrs": null,
+                                                    "type": "icon",
+                                                    "value": "clipboard-outline"
+                                                },
+                                                "label": "Software - external URL",
+                                                "opensWindow": false,
+                                                "startsWith": {
+                                                    "align": "center",
+                                                    "icon": "headset-outline"
+                                                },
+                                                "type": "external",
+                                                "value": {
+                                                    "href": "https://www.servicenow.com"
+                                                }
+                                            },
+                                            {
+                                                "configAria": {},
+                                                "download": false,
+                                                "endsWith": {
+                                                    "additionalAttrs": null,
+                                                    "type": "icon",
+                                                    "value": "clipboard-outline"
+                                                },
+                                                "label": "Hardware - route type",
+                                                "opensWindow": false,
+                                                "startsWith": {
+                                                    "align": "center",
+                                                    "icon": "headset-outline"
+                                                },
+                                                "type": "route",
+                                                "value": {
+                                                    "fields": {},
+                                                    "route": "it_support"
+                                                }
+                                            },
+                                            {
+                                                "configAria": {},
+                                                "download": false,
+                                                "endsWith": {
+                                                    "additionalAttrs": null,
+                                                    "type": "icon",
+                                                    "value": "clipboard-outline"
+                                                },
+                                                "label": "Wifi and remote access - route type",
+                                                "opensWindow": false,
+                                                "startsWith": {
+                                                    "align": "center",
+                                                    "icon": "headset-outline"
+                                                },
+                                                "type": "route",
+                                                "value": {
+                                                    "fields": {},
+                                                    "route": "it_support"
+                                                }
+                                            },
+                                            {
+                                                "configAria": {},
+                                                "download": false,
+                                                "endsWith": {
+                                                    "additionalAttrs": null,
+                                                    "type": "icon",
+                                                    "value": "clipboard-outline"
+                                                },
+                                                "label": "Security - route type",
+                                                "opensWindow": false,
+                                                "startsWith": {
+                                                    "align": "center",
+                                                    "icon": "headset-outline"
+                                                },
+                                                "type": "route",
+                                                "value": {
+                                                    "fields": {},
+                                                    "route": "it_support"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "minWidth": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "150"
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "default"
+                                    },
+                                    "width": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "auto"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "link_set_2",
+                                        "styles": {}
+                                    }
+                                ],
+                                "root": null,
+                                "rules": {
+                                    "flex-direction": "row"
+                                },
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "align-items": "stretch",
+                                            "box-sizing": "border-box",
+                                            "flex-direction": "column",
+                                            "height": "100%",
+                                            "justify-content": "flex-start",
+                                            "overflow": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__cmjjbtaatyvaabbxccddjiiggkihgdddldd__column_1",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        },
+                        {
+                            "element_id": "__cmjjbtaatyvaabbxddddjiiggcgffeivfff__column_2",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "grid-template-columns": "80fr 20fr",
+                        "grid-template-rows": "1fr",
+                        "width": "auto"
+                    },
+                    "type": "grid"
+                },
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "box-sizing": "border-box",
+                                "grid-template-columns": "1fr",
+                                "grid-template-rows": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content",
+                                "width": "auto"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "contents"
+            }
+        },
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "box-sizing": "border-box",
+                                    "grid-template-columns": "1fr",
+                                    "grid-template-rows": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content",
+                                    "width": "auto"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 80
+                            },
+                            {
+                                "columnNumber": 2,
+                                "unit": "%",
+                                "width": 20
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {
+                                "display": "contents",
+                                "width": "100%"
+                            },
+                            "internal": {
+                                "box-sizing": "border-box",
+                                "grid-template-rows": "1fr",
+                                "width": "auto"
+                            }
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "1d9f8db04340311017b739603ab8f259",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "data_manager_policy_form_1",
+        "elementLabel": "Data Manager Policy Form 1",
+        "eventMappings": [],
+        "inputValues": {
+            "policySysId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "ts": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "0af4d29c43ef211017b739603ab8f2f7",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "data_manager_overview_1",
+        "elementLabel": "Data Manager Overview 1",
+        "eventMappings": [],
+        "inputValues": {},
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "column_layout_1",
+                "styles": {
+                    "display": "contents",
+                    "width": "100%"
+                }
+            },
+            {
+                "element_id": "column_layout_2",
+                "styles": {
+                    "display": "contents",
+                    "width": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>NeedIt User home</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ {
+  "message" : "Benefits",
+  "comment" : ""
+}, {
+  "message" : "Browse all",
+  "comment" : ""
+}, {
+  "message" : "Events",
+  "comment" : ""
+}, {
+  "message" : "Expenses and gifts",
+  "comment" : ""
+}, {
+  "message" : "Filters",
+  "comment" : ""
+}, {
+  "message" : "Finance",
+  "comment" : ""
+}, {
+  "message" : "Hardware - route type",
+  "comment" : ""
+}, {
+  "message" : "Human resources",
+  "comment" : ""
+}, {
+  "message" : "IT Support",
+  "comment" : ""
+}, {
+  "message" : "No content to display",
+  "comment" : ""
+}, {
+  "message" : "Payroll",
+  "comment" : ""
+}, {
+  "message" : "Please add components into the carousel",
+  "comment" : ""
+}, {
+  "message" : "Preferred business",
+  "comment" : ""
+}, {
+  "message" : "Security",
+  "comment" : ""
+}, {
+  "message" : "Security - route type",
+  "comment" : ""
+}, {
+  "message" : "Software - external URL",
+  "comment" : ""
+}, {
+  "message" : "Time off",
+  "comment" : ""
+}, {
+  "message" : "Title",
+  "comment" : ""
+}, {
+  "message" : "Training/careers",
+  "comment" : ""
+}, {
+  "message" : "Travel &amp; expenses",
+  "comment" : ""
+}, {
+  "message" : "Travel safety",
+  "comment" : ""
+}, {
+  "message" : "View all",
+  "comment" : ""
+}, {
+  "message" : "Wifi and remote access",
+  "comment" : ""
+}, {
+  "message" : "Wifi and remote access - route type",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 21:15:27</sys_created_on>
+        <sys_id>5ff128d4c31d6210eb3dbe13e40131fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt User home</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_5ff128d4c31d6210eb3dbe13e40131fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 21:15:28</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ff128d4c31d6210eb3dbe13e40131fc"/>
+</record_update>
